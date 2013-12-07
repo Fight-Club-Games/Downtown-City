@@ -1,6 +1,7 @@
 Downtown City
 =============
-Fight Club Games ( http://www.fightclubgames.net/ )
+A Fight Club Games project ( http://www.fightclubgames.net/ )
+
 
 Mr. Pigu has to earn money in Downtown City so he can buy a rocket,
 get to the moon, and rescue his girlfriend (Ms. Piga) from the evil
