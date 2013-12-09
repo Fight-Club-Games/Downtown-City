@@ -1,0 +1,99 @@
+﻿Merge branch 'master' of https://github.com/Fight-Club-Games/Downtown-City
+
+Conflicts:
+	Source/Library/CurrentLayout.dwlt
+	Source/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+	Source/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb
+	Source/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll
+	Source/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll.mdb
+	Source/Library/ScriptAssemblies/Assembly-UnityScript.dll
+	Source/Library/ScriptAssemblies/Assembly-UnityScript.dll.mdb
+	Source/Library/assetDatabase3
+	Source/Library/guidmapper
+	Source/Library/metadata/04/04c45ccc09f6b344c9459a73137eff58
+	Source/Library/metadata/05/054a31a99d11e49d110086ba44295342
+	Source/Library/metadata/06/06893cec523208643a91b7a393737700
+	Source/Library/metadata/0a/0ab79d7f243824f5d9826bd83522c8df
+	Source/Library/metadata/0b/0b167d00b3108411a8a963cba5ddde1b
+	Source/Library/metadata/1d/1d5ac211a643e447ca78c2d794a16381
+	Source/Library/metadata/27/27acebc9ad1110f6d00074c88d76c639
+	Source/Library/metadata/28/283746c560beb6145a5409c8e486d6d9
+	Source/Library/metadata/29/29620f400d2a5d74caa2deec9eeee068
+	Source/Library/metadata/31/31179a6bbd11e2c3d000dc0b8d76c639
+	Source/Library/metadata/31/3166120e184a696478bd99c93569204f
+	Source/Library/metadata/43/433e883d1d709ba4c9414a4f7f8d1aa4
+	Source/Library/metadata/44/449b48f7eb5d87a4baaa5fb73f875a59
+	Source/Library/metadata/44/44e5e5b546c9a064d8017b284d820f15
+	Source/Library/metadata/45/45c679099c364e44ea3b0726b5cf917a
+	Source/Library/metadata/4c/4c88d514d5bc8e54a896b00dd20c6a57
+	Source/Library/metadata/4d/4d3df4da21f59f3469d075dc8bad141f
+	Source/Library/metadata/5f/5fdbf07dcd58a2740906825df1b47aff
+	Source/Library/metadata/60/6032c029444167746aa18f8aa12a3b1e
+	Source/Library/metadata/60/60bca8f58a0b8478e946e6e86658cb29
+	Source/Library/metadata/68/68ec2fe99d1108b9d0006a298d76c639
+	Source/Library/metadata/69/692f2d7151e5e914e9bbc44c8854834e
+	Source/Library/metadata/6a/6ab2782f74e5a4f4eb5a5035c3a451bc
+	Source/Library/metadata/6c/6c4b95eb871481e4591bd344e839e614
+	Source/Library/metadata/74/746704597e64d944bbda8a841bc6a15b
+	Source/Library/metadata/77/777ab1ba5e31212459262f9013be62d0
+	Source/Library/metadata/78/78c7c03597ae8b64c85860e225f2d4a9
+	Source/Library/metadata/7c/7c7b92ceeccbff84e9aae509f2fd6deb
+	Source/Library/metadata/81/814ea64a89b3a4f4181299f23b890c71
+	Source/Library/metadata/81/81a7498175028e743baf2727f77ced92
+	Source/Library/metadata/83/83b0113e16676554d8ee9336765f954d
+	Source/Library/metadata/84/84dadb2143a51584490f07a2b0c6375b
+	Source/Library/metadata/88/885b1972ad11a921d000d37b8d76c639
+	Source/Library/metadata/8a/8a4debc9ad1110f6d00074c88d76c639
+	Source/Library/metadata/8b/8b8ba88cbd11e2c3d000dc0b8d76c639
+	Source/Library/metadata/8c/8c4325dab5501114db5f165270957380
+	Source/Library/metadata/8f/8f54e2e571251f24da6cb3173ee9b116
+	Source/Library/metadata/96/96022ad6477954742acaa223bdb9369e
+	Source/Library/metadata/a3/a3384ef3e2313034f9016ad8a1f3999f
+	Source/Library/metadata/b8/b82411d0713a0dc4e80a40f86087e0ee
+	Source/Library/metadata/b8/b827f0846fa6e5149bcc68cb48b96f4c
+	Source/Library/metadata/bd/bdbfff0d0097c6b40aa16baf25a5f33d
+	Source/Library/metadata/be/bedc88c464ec7074d84150f89f5b08bd
+	Source/Library/metadata/c7/c7756780f87089e49a02df1c2c7f7c78
+	Source/Library/metadata/c8/c8634e062924929664361c08745211fb
+	Source/Library/metadata/ca/cae09c86ad1122e5d0006ac98d76c639
+	Source/Library/metadata/ce/cec8eb2f3707ae248868ca0fa8bdc3c6
+	Source/Library/metadata/d7/d7bca8a3b9a586942a8c9ec2f0568c94
+	Source/Library/metadata/da/da93ddd6928094e24bb1f3f665f143d3
+	Source/Library/metadata/da/daff47e0bbd1ded46bea68d0ff479dd9
+	Source/Library/metadata/dd/dd2252aaf0943dc4aa3736a493b597e9
+	Source/Library/metadata/e5/e5a5a5dbe131faa4e9fc2d4302cbcfa2
+	Source/Library/metadata/e9/e97b83ef91c16d74784ed87cfa07f3ee
+	Source/Library/metadata/ee/ee3b58886af05ef40974d6a00140af75
+	Source/Library/metadata/f6/f62ff752744c30b47a34f3d38ae66689
+	Source/Library/metadata/f9/f9213ea1b2ebf2849a82b708ec446997
+	Source/Library/metadata/fd/fdf3fe90016a1d146a0ede7140f2ac6a
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 2 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# You are currently rebasing branch 'master' on '88e93c0'.
+#   (all conflicts fixed: run "git rebase --continue")
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   README.md
+#	modified:   Source/Library/CurrentLayout.dwlt
+#	modified:   Source/Library/assetDatabase3
+#	modified:   Source/Library/metadata/00/00000000000000002000000000000000
+#	modified:   Source/Library/metadata/00/00000000000000003000000000000000
+#	modified:   Source/Library/metadata/00/00000000000000004100000000000000
+#	modified:   Source/Library/metadata/00/00000000000000006000000000000000
+#	modified:   Source/Library/metadata/00/00000000000000006100000000000000
+#	modified:   Source/Library/metadata/00/00000000000000007000000000000000
+#	modified:   Source/Library/metadata/00/00000000000000008000000000000000
+#	modified:   Source/Library/metadata/00/00000000000000009000000000000000
+#	modified:   Source/Library/metadata/00/0000000000000000a000000000000000
+#	modified:   Source/Library/metadata/00/0000000000000000b000000000000000
+#	modified:   Source/Library/metadata/00/0000000000000000c000000000000000
+#
+
