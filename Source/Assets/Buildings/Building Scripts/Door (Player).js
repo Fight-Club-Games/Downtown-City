@@ -2,44 +2,30 @@
 
 GameObject.Find("MessageGUI").guiText.enabled = false;
 
+var door:DoorBuilding;
 
-
-var inTrigger = false;
-var inOffice = false;
 function Awake(){
-if(PlayerPrefs.GetInt("FirstSpawn")){
-transform.position = Vector3( PlayerPrefs.GetFloat("PlayerX"), PlayerPrefs.GetFloat("PlayerY"), PlayerPrefs.GetFloat("PlayerZ") );
-}
-}
-
+	transform.position = new Vector3(PlayerPrefs.GetFloat("PlayerX",transform.position.x),PlayerPrefs.GetFloat("PlayerY",transform.position.y),PlayerPrefs.GetFloat("PlayerZ",transform.position.z));
+		}
 function OnTriggerEnter(trigger:Collider){
 	if(trigger.tag == "Door"){
-		inTrigger = true;
+		door = trigger.gameObject.GetComponent("DoorBuilding");
 		}
-		else if(trigger.tag == "officeinterior"){
-			inOffice = true;
-		}
-		
 }
 function Update(){
-	if(inTrigger){
+	if(door){
 		GameObject.Find("MessageGUI").guiText.enabled = true;
 		if(Input.GetKey(KeyCode.E)){
-			GameObject.Find("MessageGUI").guiText.text = "This building is not available yet!";
+		if(door.scene){
+		PlayerPrefs.SetFloat("PlayerX",transform.position.x);
+		PlayerPrefs.SetFloat("PlayerY",transform.position.y);
+		PlayerPrefs.SetFloat("PlayerZ",transform.position.z);
+		PlayerPrefs.Save();
+Application.LoadLevel(door.scene);
 		}
 		else{
-			GameObject.Find("MessageGUI").guiText.text = "Press 'E' to Enter";
+		GameObject.Find("MessageGUI").guiText.text = "This building is not available yet!";
 		}
-	}
-	if(inOffice){
-		GameObject.Find("MessageGUI").guiText.enabled = true;
-		if(Input.GetKey(KeyCode.E)){
-		PlayerPrefs.SetFloat("PlayerX", transform.position.x);
-PlayerPrefs.SetFloat("PlayerY", transform.position.y);
-PlayerPrefs.SetFloat("PlayerZ", transform.position.z);
-PlayerPrefs.SetInt("FirstSpawn",1);
-PlayerPrefs.Save();
-			Application.LoadLevel("officeinterior");
 		}
 		else{
 			GameObject.Find("MessageGUI").guiText.text = "Press 'E' to Enter";
@@ -51,9 +37,6 @@ PlayerPrefs.Save();
 }
 function OnTriggerExit(trigger:Collider){
 	if(trigger.tag == "Door"){
-		inTrigger = false;
+		door = null;
 	}
-	else if(trigger.tag == "officeinterior"){
-			inOffice = false;
-		}
 }

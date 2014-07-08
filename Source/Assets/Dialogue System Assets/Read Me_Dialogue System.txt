@@ -1,0 +1,38 @@
+NPC Chat and Dialogue System
+
+Version 1.2
+
+Read Me
+
+-This system is designed to allow NPCs(non player characters) the ability to have a chat box with dialogue.
+-Create your own textures to use as chatboxes, you can use any image editing program to make basic or 
+ highly customized dialogue boxes.
+-Use your own fonts on GUIText components to further customize the chat sequences.
+-Resize and Position the GUITextures and GUIText through the inspector with the "Transform Scale" and
+ "Transform Position" values.
+
+To set up chat follow the steps below.
+
+1.Start by making a basic Cube. On the Box Collider component, make sure the box "Is Trigger" is checked.
+
+2.Add the NPC script associated with your character type to the Cube and fill in the required fields.
+ (There are instructions in the inspector to help with configuration.)
+
+3.Add the "GUI_NPC Chat Dialogue System" prefab to the hierarchy, this contains preconfigured talk lines
+  and chat boxes. Use an image editor to create custom chat box textures, use them instead of the included boxes!
+
+4.Use a text editor to write and align your chat if you want to use multiple lines, then paste them in the 
+ "Talk Lines" element fields.
+
+5.Once your chat is configured, attach the cube to your NPC and disable the mesh renderer.
+
+6.For the third person and first person NPCs, you can increase the size of the box collider to determine when
+  you want the player to stop and have a conversation with the NPC. The Third Person click to chat NPC comes 
+  with a distance slider that can be used to determine how close or far the player has to be in order to start
+  the chat. 
+
+
+Thank you for your support.
+
+If you have any questions 
+or comments, please contact:   turnthegameon@gmail.com
