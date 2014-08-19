@@ -11,10 +11,10 @@ function Update () {
 	if(Input.GetKeyUp("left")){
 		low.Stop();
 	}
-	if(Input.GetKeyDown("down")){
+	if(Input.GetKeyDown("up")){
 		mid.Play();
 	}
-	if(Input.GetKeyUp("down")){
+	if(Input.GetKeyUp("up")){
 		mid.Stop();
 	}
 	if(Input.GetKeyDown("right")){

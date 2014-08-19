@@ -44,6 +44,12 @@ function Update(){
 
 function OnGUI(){
 	if(pause == true) {
+	if(GUI.Button(new Rect(Screen.width / 2 - 90,100,180,50),"Unpause")){
+			pause = false;
+			Time.timeScale = 1.0;
+			pauseGUI.enabled = false;
+			ResumeAllAudio();
+		}
 		if(GUI.Button(new Rect(Screen.width / 2 - 90,150,180,50),"Return To Main Menu")){
 			Application.LoadLevel(0);
 		}

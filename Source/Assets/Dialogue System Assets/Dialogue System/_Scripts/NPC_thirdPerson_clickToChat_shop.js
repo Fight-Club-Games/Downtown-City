@@ -25,8 +25,13 @@ function Start(){
 		//Disables all NPC textures until they are called upon during dialogue
 		textures[i].enabled = false;
 	}
+	
+	talking = true;
+	currentLine = 0;
+	startScrolling();
+	
 }
-
+/*
 //When the cursor hovers over this object
 function OnMouseEnter(){
 	if (player){
@@ -89,7 +94,7 @@ function Update () {
 		}
 	}
 }
-
+*/
 function startScrolling(){
 	textIsScrolling = true;
 	var startLine:int = currentLine;
